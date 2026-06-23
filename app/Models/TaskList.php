@@ -10,5 +10,13 @@ class TaskList extends Model
     /** @use HasFactory<\Database\Factories\TaskListFactory> */
     use HasFactory;
 
+    protected $fillable = [
+        // TODO
+    ];
+
+    protected $casts = [
+        // TODO
+    ];
+
     // TODO: Add relationships and other model methods as needed
 }

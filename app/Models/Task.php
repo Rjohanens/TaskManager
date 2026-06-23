@@ -10,5 +10,13 @@ class Task extends Model
     /** @use HasFactory<\Database\Factories\TaskFactory> */
     use HasFactory;
 
+    protected $fillable = [
+        // TODO
+    ];
+
+    protected $casts = [
+        // TODO
+    ];
+
     // TODO Add relationships and other model methods as needed
 }
