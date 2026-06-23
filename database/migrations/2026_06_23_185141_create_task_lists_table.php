@@ -13,6 +13,10 @@ return new class extends Migration
     {
         Schema::create('task_lists', function (Blueprint $table) {
             $table->id();
+
+
+            // TODO: Add other columns as needed
+
             $table->timestamps();
         });
     }
